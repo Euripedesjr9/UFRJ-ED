@@ -26,3 +26,12 @@ git push
 
 ## Remove arquivo
 git rm file_xpto.csv 
+
+
+## para deletar uma branch
+git branch -D nome da branch
+
+## para fazer merge 
+
+git merge nome da branch
+
