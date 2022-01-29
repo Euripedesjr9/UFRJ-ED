@@ -1,0 +1,28 @@
+##Para clonar em uma pasta
+git clone |caminho| diretorio
+
+git clone https://github.com/Euripedesjr9/UFRJ-ED.git UFRJ-ED
+
+## para criar uma branch
+git checkout -b  nome_da_nova_branch
+
+## para saber em qual branch estamos 
+git checkout status
+
+## para mudar de branch
+git checkout nome_da_branch_que_tu_quer_ir
+
+## para baixar todas as infos que estão na main
+git pull
+
+## para adicionar um arquivo
+git add * file_xpto.csv  
+
+## para comitar a alteração 
+git commit -m"teste"
+
+## para subir para branch
+git push
+
+## Remove arquivo
+git rm file_xpto.csv 
