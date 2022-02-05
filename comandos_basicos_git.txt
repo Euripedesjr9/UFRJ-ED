@@ -31,6 +31,17 @@ git rm file_xpto.csv
 ## para deletar uma branch
 git branch -D nome da branch
 
+
+## para deletar uma branch
+git branch -D nome da branch
+
+## delete branch locally
+git branch -d nome da branch
+
+
+## delete branch remotely
+git push origin --delete remoteBranchName
+
 ## para fazer merge 
 
 git merge nome da branch
